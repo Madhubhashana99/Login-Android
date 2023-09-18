@@ -10,13 +10,51 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:alpha="0.7"
         android:background="@color/my_primary"
-        android:alpha="0.7"/>
+        android:gravity="center">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="28dp">
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="223dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="465dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="GO MAP"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginEnd="171dp"
+            android:layout_marginBottom="525dp"
+            android:imageSize="64sp"
+            android:src="@drawable/baseline_location_on_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="676dp"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
 </RelativeLayout>
