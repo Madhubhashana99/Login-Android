@@ -51,7 +51,9 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="676dp"
             android:orientation="vertical"
-            android:padding="28dp">
+            android:padding="28dp"
+            android:layout_above="@+id/card_view"
+            >
 
         </LinearLayout>
 
@@ -61,6 +63,7 @@
             android:layout_alignParentBottom="true"
             app:cardCornerRadius="40dp"
             android:layout_marginBottom="-20dp"
+            android:id="@+id/card_view"
             >
 
 
